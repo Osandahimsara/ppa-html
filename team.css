@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
-
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
@@ -40,35 +45,31 @@ body {
     height: 100%;
     object-fit: cover;
 }
-.caption
+.home-inner
 {
-    width: 100%;
-    max-width: 100%;
+    position: relative;
+}
+.section
+{
     position: absolute;
-    top: 38%;
-    z-index: 1;
-    color: white;
-    text-transform: uppercase;
-
+    top: 10px;
+    left: 10px; 
+    width: 98.5%;
+    height: 70%;
+    background-color: transparent;
 }
-.caption h1
+.container
 {
-    font-size: 3.8rem;
-    font-weight: 700;
-    letter-spacing: 0.3rem;
-    text-shadow: 0.1rem 0.1rem 0.8rem black;
-    padding-bottom: 1rem;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding-top: 100px;
 }
-.caption h3
+.card
 {
-    font-size: 2rem;
-    text-shadow: 0.1rem 0.1rem 0.5rem black;
-    padding-bottom: 1.6rem;
+    margin-right: 10px;
 }
-.btn-lg
+.card-title
 {
-    border-width: medium;
-    border-radius: 0;
-    padding: 0.6rem 1.3rem;
-    font-size: 1.1rem;
+    font-weight: bold;
 }
