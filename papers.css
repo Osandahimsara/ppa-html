@@ -42,8 +42,7 @@ body {
 #bimg
 {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
 }
 .home-inner
 {
@@ -61,15 +60,27 @@ body {
 .container
 {
     width: 80%;
-    display: flex;
     margin: auto;
     padding-top: 100px;
 }
-.card
+.content-section
 {
-    margin-right: 10px;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
 }
-.card-title
+.image-section
 {
+    padding-top: 70px;
+    margin: auto;
+    width: 80%;
+}
+#table
+{
+    color: white;
+}
+#title
+{
+    color: white;
     font-weight: bold;
 }
