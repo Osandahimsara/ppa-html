@@ -80,3 +80,11 @@ body {
 {
     font-weight: bold;
 }
+.card
+{
+    background-color: transparent;
+}
+.card h5, li
+{
+    color: white;
+}
