@@ -61,22 +61,46 @@ body {
 .container
 {
     width: 80%;
-    display: flex;
+    display: block;
     margin: auto;
-    padding-top: 150px;
-}
-.home-inner h1
-{
-    color: white;
-    font-weight: bold;
-    text-align: center;
     padding-top: 100px;
 }
-.card
+.container h2
 {
-    margin-right: 10px;
+    color: white;
 }
-.card-title
+.container p
+{
+    color: white;
+    font-size: large;
+}
+.content-section
+{
+    float: left;
+    width: 55%;
+}
+.image-section
+{
+    float: right;
+    width: 40%;
+}
+.image-section img
+{
+    width: 100%;
+    height: auto;
+}
+.title h1
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.content p
 {
     font-weight: bold;
+    color: white;
+}
+.row label
+{
+    color: white;
 }
