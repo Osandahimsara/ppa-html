@@ -100,6 +100,11 @@ body {
     font-weight: bold;
     color: white;
 }
+li p a
+{
+    text-decoration: none;
+    color: white;
+}
 .row label
 {
     color: white;
